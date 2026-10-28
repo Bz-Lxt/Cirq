@@ -86,6 +86,12 @@ from cirq.sim.state_vector_simulation_state import (
     StateVectorSimulationState as StateVectorSimulationState,
 )
 
+from cirq.sim import branch_enumerator as branch_enumerator
+from cirq.sim.branch_enumerator import (
+    CircuitBranch as CircuitBranch,
+    enumerate_branches as enumerate_branches,
+    enumerate_dynamic_circuit_branches as enumerate_dynamic_circuit_branches,
+)
 from cirq.sim.classical_simulator import ClassicalStateSimulator as ClassicalStateSimulator
 
 from cirq.sim.state_vector_simulator import (

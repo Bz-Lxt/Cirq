@@ -471,6 +471,8 @@ from cirq.qis import (
 
 from cirq.sim import (
     CIRCUIT_LIKE as CIRCUIT_LIKE,
+    branch_enumerator as branch_enumerator,
+    CircuitBranch as CircuitBranch,
     ClassicalStateSimulator as ClassicalStateSimulator,
     CliffordSimulator as CliffordSimulator,
     CliffordState as CliffordState,
@@ -483,6 +485,8 @@ from cirq.sim import (
     DensityMatrixTrialResult as DensityMatrixTrialResult,
     measure_density_matrix as measure_density_matrix,
     measure_state_vector as measure_state_vector,
+    enumerate_branches as enumerate_branches,
+    enumerate_dynamic_circuit_branches as enumerate_dynamic_circuit_branches,
     final_density_matrix as final_density_matrix,
     final_state_vector as final_state_vector,
     sample as sample,
